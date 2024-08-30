@@ -43,7 +43,6 @@ def update_movie_session(
             movie_session.movie_id = movie_id
         if cinema_hall_id:
             movie_session.cinema_hall_id = cinema_hall_id
-
         movie_session.save()
 
         return movie_session
