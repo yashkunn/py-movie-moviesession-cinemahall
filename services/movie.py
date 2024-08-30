@@ -29,6 +29,7 @@ def create_movie(
         title=movie_title,
         description=movie_description
     )
+
     if genres_ids:
         movie.genres.set(genres_ids)
     if actors_ids:

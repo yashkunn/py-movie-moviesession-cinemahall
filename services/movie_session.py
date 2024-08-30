@@ -48,7 +48,7 @@ def update_movie_session(
 
         return movie_session
     except MovieSession.DoesNotExist:
-        raise ValueError(f"MovieSession with id {session_id} does not exist.")
+        raise ValueError(f"MovieSession with id {session_id} does not exist")
 
 
 def delete_movie_session_by_id(movie_session_id: int) -> None:
