@@ -39,7 +39,7 @@ def update_movie_session(
     if show_time:
         update_fields["show_time"] = show_time
     if movie_id:
-        update_fields["movie_i"] = movie_id
+        update_fields["movie_id"] = movie_id
     if cinema_hall_id:
         update_fields["cinema_hall_id"] = cinema_hall_id
 
