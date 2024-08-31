@@ -15,8 +15,8 @@ def get_movies(
     return queryset.distinct()
 
 
-def get_movie_by_id(id_: int) -> Movie:
-    return Movie.objects.get(id=id_)
+def get_movie_by_id(movie_id: int) -> Movie:
+    return Movie.objects.get(pk=movie_id)
 
 
 def create_movie(
